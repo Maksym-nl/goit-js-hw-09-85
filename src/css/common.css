@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+  background: antiquewhite;
   color: #212121;
   line-height: 1.5;
 }
@@ -16,3 +17,45 @@ img {
   display: block;
   max-width: 100%;
 }
+.position{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 108px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: cadetblue;
+    margin-bottom: inherit;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 10px;
+}
+
+.value{
+  color: cornflowerblue;
+  font-size: 24px;
+  font-weight:bold
+  }
+  .label{
+    font-weight:bold;
+    font-size: 18px;
+  }
+  input{
+    font-size: 16px;
+    text-align: center;
+  }
